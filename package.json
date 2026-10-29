@@ -1,0 +1,21 @@
+{
+  "name": "kiln-weather-trmnl",
+  "version": "1.0.0",
+  "description": "Kiln (Bartlett KilnAid) + 7-day weather dashboard for a TRMNL e-ink display, self-hosted",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.mjs",
+    "demo": "node --disable-warning=ExperimentalWarning server.mjs --demo",
+    "once": "node --disable-warning=ExperimentalWarning server.mjs --once",
+    "dump": "node --disable-warning=ExperimentalWarning server.mjs --dump"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "private": true
+}
